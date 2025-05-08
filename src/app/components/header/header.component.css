@@ -19,6 +19,11 @@
     margin: 0 auto;
   }
   
+  h1, img {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
   .logo a {
     text-decoration: none;
     color: var(--white);

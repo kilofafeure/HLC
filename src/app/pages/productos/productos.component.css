@@ -35,42 +35,6 @@
     gap: 15px;
   }
   
-  .filter-group {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  
-  .filter-label {
-    font-weight: 600;
-   color: var(--primary-dark);
-  }
-  
-  .filter-options {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-  }
-  
-  .filter-btn {
-    padding: 8px 16px;
-    background-color: var(--white-smoke);
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 0.9rem;
-    transition: all 0.3s;
-  }
-  
-  .filter-btn:hover {
-    background-color: var(--bright-gray-bg); 
-  }
-  
-  .filter-btn.active {
-    background-color: var(--primary);
-    color: var(--white);
-  }
-  
   .products-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));

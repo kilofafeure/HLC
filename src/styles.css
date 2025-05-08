@@ -1,6 +1,6 @@
 /* Colores de la marca */
 :root {
-  --primary: #4a7c59;
+  --primary: #5e7e66;
   --primary-dark: #2c4c3b;
   --primary-hover: #3a6249;
   --accent: #f8e16c;
@@ -175,6 +175,43 @@ p {
   max-width: 700px;
   margin: 0 auto 30px;
   font-size: 1.1rem;
+}
+
+/* Filtros */
+.filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.filter-label {
+  font-weight: 600;
+ color: var(--primary-dark);
+}
+
+.filter-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.filter-btn {
+  padding: 8px 16px;
+  background-color: var(--white-smoke);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.3s;
+}
+
+.filter-btn:hover {
+  background-color: var(--bright-gray-bg); 
+}
+
+.filter-btn.active {
+  background-color: var(--primary);
+  color: var(--white);
 }
 
 /* Media queries */
