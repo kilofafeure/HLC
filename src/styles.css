@@ -48,6 +48,28 @@ a:hover {
   text-align: center;
 }
 
+  /* Sección de introducción */
+.description-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.description-text {
+  flex: 1;
+}
+
+.description-text p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.description-image {
+  flex: 1;
+  min-height: 300px;
+}
+
 /* Estilos generales */
 .container {
   max-width: 1200px;
@@ -218,5 +240,9 @@ p {
 @media (min-width: 768px) {
   .page-header h1 {
     font-size: 3rem;
+  }
+
+  .description-content {
+    flex-direction: row;
   }
 }

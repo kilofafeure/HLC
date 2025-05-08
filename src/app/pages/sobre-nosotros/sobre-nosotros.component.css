@@ -1,24 +1,4 @@
-  /* Sección de introducción */
-  .about-content {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-  }
-  
-  .about-text {
-    flex: 1;
-  }
-  
-  .about-text p {
-    margin-bottom: 15px;
-    line-height: 1.6;
-  }
-  
-  .about-image {
-    flex: 1;
-    min-height: 300px;
-  }
-  
+
   /* Misión y visión */
   .mission-vision {
     background-color: var(--gray-bg);
@@ -154,10 +134,7 @@
   
   /* Media queries */
   @media (min-width: 768px) {
-    .about-content {
-      flex-direction: row;
-    }
-  
+ 
     .mission-vision-grid {
       grid-template-columns: 1fr 1fr;
     }

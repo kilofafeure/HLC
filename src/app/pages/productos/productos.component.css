@@ -3,26 +3,12 @@
   }
     
   /* Sección de introducción */
-  .products-content {
+  .description-content {
     display: flex;
     flex-direction: column;
     gap: 30px;
   }
-  
-  .products-text {
-    flex: 1;
-  }
-  
-  .products-text p {
-    margin-bottom: 15px;
-    line-height: 1.6;
-  }
-  
-  .products-image {
-    flex: 1;
-    min-height: 300px;
-  }
-  
+
   /* Catálogo de productos */
   .products-catalog {
     background-color: var(--gray-bg);
@@ -193,10 +179,6 @@
   
   /* Media queries */
   @media (min-width: 768px) {
-    .products-content {
-      flex-direction: row;
-    }
-  
     .products-filters {
       flex-direction: row;
       justify-content: space-between;

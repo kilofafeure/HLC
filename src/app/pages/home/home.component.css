@@ -3,26 +3,6 @@
     background-color: var(--white);
   }
   
-  .intro-content {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-  }
-  
-  .intro-text {
-    flex: 1;
-  }
-  
-  .intro-text p {
-    margin-bottom: 15px;
-    line-height: 1.6;
-  }
-  
-  .intro-image {
-    flex: 1;
-    min-height: 300px;
-  }
-  
   /* Featured products */
   .featured-products {
     background-color: var(--gray-bg);
@@ -96,14 +76,8 @@
     color: var(--text-light);
   }
   
-
-  
   /* Media queries */
   @media (min-width: 768px) {
-    .intro-content {
-      flex-direction: row;
-    }
-  
     .wellcome h1 {
       font-size: 3rem;
     }

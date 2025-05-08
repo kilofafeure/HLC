@@ -9,15 +9,6 @@
     gap: 30px;
   }
   
-  .benefits-text {
-    flex: 1;
-  }
-  
-  .benefits-text p {
-    margin-bottom: 15px;
-    line-height: 1.6;
-  }
-  
   .benefits-image {
     flex: 1;
     min-height: 300px;
