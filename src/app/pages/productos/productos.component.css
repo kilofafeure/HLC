@@ -2,14 +2,7 @@
     text-align: center;
   }
     
-  /* Sección de introducción */
-  .description-content {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-  }
-
-  /* Catálogo de productos */
+    /* Catálogo de productos */
   .products-catalog {
     background-color: var(--gray-bg);
   }
