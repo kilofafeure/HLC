@@ -1,6 +1,6 @@
   /* Wellcome section */
   .wellcome {
-    background-color: #e8f5e9;
+    background-color: var(--light-bg);
     text-align: center;
     padding: 100px 20px;
     background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),
@@ -16,13 +16,13 @@
   
   .wellcome h1 {
     font-size: 2.5rem;
-    color: #2c4c3b;
+   color: var(--primary-dark);
     margin-bottom: 20px;
   }
   
   .wellcome p {
     font-size: 1.2rem;
-    color: #4a7c59;
+    color: var(--primary);
     margin-bottom: 30px;
   }
   
@@ -35,7 +35,7 @@
   
   /* Intro section */
   .intro {
-    background-color: white;
+    background-color: var(--white);
   }
   
   .intro-content {
@@ -60,7 +60,7 @@
   
   /* Featured products */
   .featured-products {
-    background-color: #f9f9f9;
+    background-color: var(--gray-bg);
   }
   
   .products-grid {
@@ -71,7 +71,7 @@
   }
   
   .product-card {
-    background-color: white;
+    background-color: var(--white);
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
@@ -89,17 +89,17 @@
   .product-card h3 {
     padding: 15px 15px 5px;
     font-size: 1.2rem;
-    color: #2c4c3b;
+   color: var(--primary-dark);
   }
   
   .product-card p {
     padding: 0 15px 15px;
-    color: #666;
+    color: var(--text-light);
   }
   
   /* Benefits preview */
   .benefits-preview {
-    background-color: #e8f5e9;
+    background-color: var(--light-bg);
   }
   
   .benefits-grid {
@@ -110,7 +110,7 @@
   }
   
   .benefit-card {
-    background-color: white;
+    background-color: var(--white);
     padding: 30px 20px;
     border-radius: 8px;
     text-align: center;
@@ -124,11 +124,11 @@
   
   .benefit-card h3 {
     margin-bottom: 10px;
-    color: #2c4c3b;
+   color: var(--primary-dark);
   }
   
   .benefit-card p {
-    color: #666;
+    color: var(--text-light);
   }
   
 

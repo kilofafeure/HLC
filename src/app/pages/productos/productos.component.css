@@ -25,7 +25,7 @@
   
   /* Catálogo de productos */
   .products-catalog {
-    background-color: #f9f9f9;
+    background-color: var(--gray-bg);
   }
   
   .products-filters {
@@ -43,7 +43,7 @@
   
   .filter-label {
     font-weight: 600;
-    color: #2c4c3b;
+   color: var(--primary-dark);
   }
   
   .filter-options {
@@ -54,7 +54,7 @@
   
   .filter-btn {
     padding: 8px 16px;
-    background-color: #f0f0f0;
+    background-color: var(--white-smoke);
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -63,12 +63,12 @@
   }
   
   .filter-btn:hover {
-    background-color: #e0e0e0;
+    background-color: var(--bright-gray-bg); 
   }
   
   .filter-btn.active {
-    background-color: #4a7c59;
-    color: white;
+    background-color: var(--primary);
+    color: var(--white);
   }
   
   .products-grid {
@@ -78,7 +78,7 @@
   }
   
   .product-card {
-    background-color: white;
+    background-color: var(--white);
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
@@ -101,8 +101,8 @@
     position: absolute;
     top: 10px;
     right: 10px;
-    background-color: #ff6b6b;
-    color: white;
+    background-color: var(--red-rose);
+    color: var(--white);
     padding: 5px 10px;
     border-radius: 4px;
     font-size: 0.8rem;
@@ -118,12 +118,12 @@
   
   .product-info h3 {
     margin: 0 0 10px;
-    color: #2c4c3b;
+   color: var(--primary-dark);
   }
   
   .product-description {
     margin: 0 0 15px;
-    color: #666;
+    color: var(--text-light);
     flex-grow: 1;
   }
   
@@ -135,7 +135,7 @@
   }
   
   .product-season {
-    color: #4a7c59;
+    color: var(--primary);
   }
   
   .product-price {
@@ -144,7 +144,7 @@
   
   /* Calendario de temporada */
   .seasonal-calendar {
-    background-color: white;
+    background-color: var(--white);
   }
   
   .seasonal-calendar p {
@@ -166,13 +166,13 @@
   }
   
   .calendar-header {
-    background-color: #4a7c59;
-    color: white;
+    background-color: var(--primary);
+    color: var(--white);
     font-weight: 600;
   }
   
   .calendar-row:nth-child(even) {
-    background-color: #f9f9f9;
+    background-color: var(--gray-bg);
   }
   
   .calendar-cell {
@@ -186,7 +186,7 @@
     flex: 2;
     text-align: left;
     font-weight: 600;
-    color: #2c4c3b;
+   color: var(--primary-dark);
   }
   
   .calendar-cell.available {
@@ -195,7 +195,7 @@
   
   /* Cómo comprar */
   .how-to-buy {
-    background-color: #e8f5e9;
+    background-color: var(--light-bg);
   }
   
   .buying-options {
@@ -205,7 +205,7 @@
   }
   
   .buying-option {
-    background-color: white;
+    background-color: var(--white);
     padding: 30px;
     border-radius: 8px;
     text-align: center;
@@ -219,12 +219,12 @@
   
   .buying-option h3 {
     margin-bottom: 15px;
-    color: #2c4c3b;
+   color: var(--primary-dark);
   }
   
   .buying-option p {
     margin-bottom: 15px;
-    color: #666;
+    color: var(--text-light);
   }
   
   /* Media queries */

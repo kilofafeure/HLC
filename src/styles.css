@@ -1,3 +1,20 @@
+/* Colores de la marca */
+:root {
+  --primary: #4a7c59;
+  --primary-dark: #2c4c3b;
+  --accent: #f8e16c;
+  --accent-dark: #f5d742;
+  --light-bg: #e8f5e9;
+  --gray-bg: #f9f9f9;
+  --text: #333;
+  --text-light: #666;
+  --white: #fff;
+  --bright-gray-bg: #e9e9e9;
+  --shade-of-gray: #777;
+  --white-smoke: #f0f0f0;
+  --red-rose: #ff6b6b;
+}
+
 /* Estilos globales */
 * {
   margin: 0;
@@ -8,7 +25,7 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
-  color: #333;
+  color: var(--text);
 }
 
 img {
@@ -17,12 +34,12 @@ img {
 }
 
 a {
-  color: #4a7c59;
+  color: var(--primary);
   text-decoration: none;
 }
 
 a:hover {
-  color: #2c4c3b;
+  color: var(--primary-dark);
 }
 
 /* Utilidades */
@@ -44,7 +61,7 @@ section {
 h2 {
   font-size: 2rem;
   margin-bottom: 30px;
-  color: #2c4c3b;
+ color: var(--primary-dark);
 }
 
 .btn {
@@ -59,8 +76,8 @@ h2 {
 }
 
 .btn-primary {
-  background-color: #4a7c59;
-  color: white;
+  background-color: var(--primary);
+  color: var(--white);
 }
 
 .btn-primary:hover {
@@ -68,23 +85,23 @@ h2 {
 }
 
 .btn-secondary {
-  background-color: #f8e16c;
-  color: #2c4c3b;
+  background-color: var(--accent);
+ color: var(--primary-dark);
 }
 
 .btn-secondary:hover {
-  background-color: #f5d742;
+  background-color: var(--accent-dark);
 }
 
 .image-placeholder,
 .map-placeholder {
-  background-color: #e9e9e9;
+  background-color: var(--bright-gray-bg);
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100%;
   width: 100%;
-  color: #777;
+  color: var(--shade-of-gray);
   font-style: italic;
 }
   
@@ -103,46 +120,34 @@ h2 {
   text-align: center;
 }
 
-/* Colores de la marca */
-:root {
-  --primary: #4a7c59;
-  --primary-dark: #2c4c3b;
-  --accent: #f8e16c;
-  --accent-dark: #f5d742;
-  --light-bg: #e8f5e9;
-  --gray-bg: #f9f9f9;
-  --text: #333;
-  --text-light: #666;
-  --white: #fff;
-}
 
  /* Cabecera de página */
  .page-header {
-  background-color: #e8f5e9;
+  background-color: var(--light-bg);
   padding: 60px 0;
   text-align: center;
 }
 
 .page-header h1 {
   font-size: 2.5rem;
-  color: #2c4c3b;
+ color: var(--primary-dark);
   margin-bottom: 10px;
 }
 
 .page-header p {
   font-size: 1.2rem;
-  color: #4a7c59;
+  color: var(--primary);
 }
 
 /* CTA section */
 .cta {
-  background-color: #4a7c59;
-  color: white;
+  background-color: var(--primary);
+  color: var(--white);
   text-align: center;
 }
 
 .cta h2 {
-  color: white;
+  color: var(--white);
 }
 
 .cta p {

@@ -1,6 +1,6 @@
 .footer {
-    background-color: #2c4c3b;
-    color: white;
+    background-color: var(--primary-dark);
+    color: var(--white);
     padding: 40px 0 20px;
   }
   
@@ -52,16 +52,16 @@
     justify-content: center;
     width: 40px;
     height: 40px;
-    background-color: #4a7c59;
-    color: white;
+    background-color: var(--primary);
+    color: var(--white);
     border-radius: 50%;
     text-decoration: none;
     transition: background-color 0.3s;
   }
   
   .social-icon:hover {
-    background-color: #f8e16c;
-    color: #2c4c3b;
+    background-color: var(--accent);
+    color: var(--primary-dark);
   }
   
   .footer-bottom {
