@@ -2,10 +2,6 @@
     <div class="wellcome-content">
       <h1>Bienvenidos a Huerta La Curtia</h1>
       <p>Productos ecológicos cultivados con amor y respeto por la naturaleza</p>
-      <div class="wellcome-buttons">
-        <a routerLink="/productos" class="btn btn-primary">Ver Productos</a>
-        <a routerLink="/contacto" class="btn btn-secondary">Contactar</a>
-      </div>
     </div>
   </section>
   
@@ -16,11 +12,13 @@
         <div class="intro-text">
           <p>En Huerta La Curtia nos dedicamos al cultivo de productos ecológicos de temporada, respetando los ciclos naturales y utilizando técnicas sostenibles que cuidan tanto de la tierra como de tu salud.</p>
           <p>Nuestros productos están libres de pesticidas y químicos, garantizando el sabor auténtico y los nutrientes que la naturaleza nos ofrece.</p>
-          <a routerLink="/sobre-nosotros" class="btn btn-text">Conoce más sobre nosotros →</a>
+          <div class="center-button">
+            <a routerLink="/sobre-nosotros" class="btn btn-secondary">Contactar</a>
+          </div>
         </div>
         <div class="intro-image">
           <div class="image-placeholder">
-            <span>Imagen de la huerta</span>
+            <span><img src="../assets/mercadoAviles.jpeg" alt="Mercado de Avilés"></span>
           </div>
         </div>
       </div>
@@ -62,7 +60,7 @@
         </div>
       </div>
       <div class="text-center">
-        <a routerLink="/productos" class="btn btn-primary">Ver todos los productos</a>
+        <a routerLink="/productos" class="btn btn-secondary">Ver todos los productos</a>
       </div>
     </div>
   </section>
