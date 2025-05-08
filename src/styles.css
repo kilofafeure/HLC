@@ -137,6 +137,16 @@ p {
   background-color: var(--light-bg);
   padding: 60px 0;
   text-align: center;
+  background-color: var(--light-bg);
+  text-align: center;
+  padding: 100px 20px;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)),
+    url("./assets/miruendanos.jpg");
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
 }
 
 .page-header h1 {
@@ -147,7 +157,7 @@ p {
 
 .page-header p {
   font-size: 1.2rem;
-  color: var(--primary);
+  color: var(--accent-dark);
 }
 
 /* CTA section */
