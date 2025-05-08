@@ -1,0 +1,131 @@
+  h2 {
+    text-align: center;
+  }
+  
+  /* Sección de introducción */
+  .benefits-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .benefits-text {
+    flex: 1;
+  }
+  
+  .benefits-text p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+  }
+  
+  .benefits-image {
+    flex: 1;
+    min-height: 300px;
+  }
+  
+  /* Secciones de beneficios */
+  .benefits-health {
+    background-color: #f9f9f9;
+  }
+  
+  .benefits-environment {
+    background-color: #e8f5e9;
+  }
+  
+  .benefits-community {
+    background-color: #f9f9f9;
+  }
+  
+  .benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 30px;
+  }
+  
+  .benefit-card {
+    background-color: white;
+    padding: 30px 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    height: 100%;
+  }
+  
+  .benefit-icon {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .benefit-card h3 {
+    margin-bottom: 10px;
+    color: #2c4c3b;
+  }
+  
+  .benefit-card p {
+    color: #666;
+  }
+  
+  /* Testimonios */
+  .testimonials {
+    background-color: white;
+  }
+  
+  .testimonials-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  
+  .testimonial-card {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .testimonial-text {
+    margin-bottom: 20px;
+    font-style: italic;
+    color: #555;
+  }
+  
+  .testimonial-text p {
+    position: relative;
+    padding: 0 20px;
+  }
+  
+  .testimonial-text p::before,
+  .testimonial-text p::after {
+    content: '"';
+    font-size: 1.5rem;
+    color: #4a7c59;
+  }
+  
+  .testimonial-author {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .author-info h4 {
+    margin: 0;
+    color: #2c4c3b;
+  }
+  
+  .author-info p {
+    margin: 5px 0 0;
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  /* Media queries */
+  @media (min-width: 768px) {
+    .benefits-content {
+      flex-direction: row;
+    }
+  
+    .testimonials-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  

@@ -87,11 +87,17 @@ h2 {
   color: #777;
   font-style: italic;
 }
+  
+.image-placeholder.small {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
 
-.map-placeholder {
+/* .map-placeholder {
   height: 300px;
   border-radius: 8px;
-}
+} */
 
 .text-center {
   text-align: center;

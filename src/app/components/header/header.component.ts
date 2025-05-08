@@ -15,7 +15,7 @@ export class HeaderComponent {
     { path: "/beneficios", label: "Beneficios" },
     { path: "/galeria", label: "Galería" },
     { path: "/productos", label: "Productos" },
-    { path: "/contacto", label: "Contacto" },
+    { path: "/contacto", label: "Contacto/FAQs" },
   ]
 
   isMenuOpen = false
