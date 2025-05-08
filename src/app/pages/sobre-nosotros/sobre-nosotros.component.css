@@ -1,0 +1,169 @@
+  /* Sección de introducción */
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .about-text {
+    flex: 1;
+  }
+  
+  .about-text p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+  }
+  
+  .about-image {
+    flex: 1;
+    min-height: 300px;
+  }
+  
+  /* Misión y visión */
+  .mission-vision {
+    background-color: #f9f9f9;
+  }
+  
+  .mission-vision-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  
+  .mission-card,
+  .vision-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Equipo */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 30px;
+  }
+  
+  .team-member {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .member-image {
+    height: 250px;
+  }
+  
+  .team-member h3 {
+    padding: 15px 15px 5px;
+    font-size: 1.2rem;
+    color: #2c4c3b;
+    margin: 0;
+  }
+  
+  .member-role {
+    padding: 0 15px;
+    color: #4a7c59;
+    font-weight: 600;
+    margin: 5px 0;
+  }
+  
+  .team-member p:not(.member-role) {
+    padding: 0 15px 15px;
+    color: #666;
+  }
+  
+  /* Valores */
+  .values {
+    background-color: #e8f5e9;
+  }
+  
+  .values-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 30px;
+  }
+  
+  .value-card {
+    background-color: white;
+    padding: 30px 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .value-icon {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .value-card h3 {
+    margin-bottom: 10px;
+    color: #2c4c3b;
+  }
+  
+  .value-card p {
+    color: #666;
+  }
+  
+  /* Certificaciones */
+  .certifications-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .certifications-text {
+    flex: 1;
+  }
+  
+  .certifications-text p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+  }
+  
+  .certifications-text ul {
+    padding-left: 20px;
+  }
+  
+  .certifications-text li {
+    margin-bottom: 10px;
+  }
+  
+  .certifications-logos {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .logo-placeholder {
+    width: 150px;
+    height: 100px;
+    background-color: #e9e9e9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #777;
+    font-style: italic;
+    border-radius: 4px;
+  }
+  
+  /* Media queries */
+  @media (min-width: 768px) {
+    .about-content {
+      flex-direction: row;
+    }
+  
+    .mission-vision-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  
+    .certifications-content {
+      flex-direction: row;
+    }
+  }
+  

@@ -1,50 +1,153 @@
-@import "tailwindcss";
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-:root {
-  --foreground: 222.2 84% 4.9%;
-  --background: 0 0% 100%;
-  --muted: 210 40% 96.1%;
-  --muted-foreground: 215.4 16.3% 46.9%;
-  --card: 0 0% 100%;
-  --card-foreground: 222.2 84% 4.9%;
-  --popover: 0 0% 100%;
-  --popover-foreground: 222.2 84% 4.9%;
-  --primary: 142.1 76.2% 36.3%;
-  --primary-foreground: 355.7 100% 97.3%;
-  --secondary: 217.2 32.6% 17.5%;
-  --secondary-foreground: 210 40% 98%;
-  --accent: 210 40% 96.1%;
-  --accent-foreground: 222.2 47.4% 11.2%;
-  --destructive: 0 84.2% 60.2%;
-  --destructive-foreground: 210 40% 98%;
-  --border: 214.3 31.8% 91.4%;
-  --input: 214.3 31.8% 91.4%;
-  --ring: 142.1 76.2% 36.3%;
-  --radius: 0.5rem;
+/* Estilos globales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.text-muted-foreground {
-  color: hsl(var(--muted-foreground));
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
 }
 
-.bg-background {
-  background-color: hsl(var(--background));
+img {
+  max-width: 100%;
+  height: auto;
 }
 
+a {
+  color: #4a7c59;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #2c4c3b;
+}
+
+/* Utilidades */
+.text-center {
+  text-align: center;
+}
+
+/* Estilos generales */
 .container {
-  width: 100%;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 2rem;
-  padding-left: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
-@media (min-width: 1400px) {
-  .container {
-    max-width: 1400px;
+section {
+  padding: 60px 0;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #2c4c3b;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s;
+  cursor: pointer;
+  border: none;
+}
+
+.btn-primary {
+  background-color: #4a7c59;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #3a6249;
+}
+
+.btn-secondary {
+  background-color: #f8e16c;
+  color: #2c4c3b;
+}
+
+.btn-secondary:hover {
+  background-color: #f5d742;
+}
+
+.image-placeholder,
+.map-placeholder {
+  background-color: #e9e9e9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  color: #777;
+  font-style: italic;
+}
+
+.map-placeholder {
+  height: 300px;
+  border-radius: 8px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Colores de la marca */
+:root {
+  --primary: #4a7c59;
+  --primary-dark: #2c4c3b;
+  --accent: #f8e16c;
+  --accent-dark: #f5d742;
+  --light-bg: #e8f5e9;
+  --gray-bg: #f9f9f9;
+  --text: #333;
+  --text-light: #666;
+  --white: #fff;
+}
+
+ /* Cabecera de página */
+ .page-header {
+  background-color: #e8f5e9;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.page-header h1 {
+  font-size: 2.5rem;
+  color: #2c4c3b;
+  margin-bottom: 10px;
+}
+
+.page-header p {
+  font-size: 1.2rem;
+  color: #4a7c59;
+}
+
+/* CTA section */
+.cta {
+  background-color: #4a7c59;
+  color: white;
+  text-align: center;
+}
+
+.cta h2 {
+  color: white;
+}
+
+.cta p {
+  max-width: 700px;
+  margin: 0 auto 30px;
+  font-size: 1.1rem;
+}
+
+/* Media queries */
+@media (min-width: 768px) {
+  .page-header h1 {
+    font-size: 3rem;
   }
 }

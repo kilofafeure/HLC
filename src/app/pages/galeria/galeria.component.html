@@ -1,0 +1,135 @@
+<div class="page-header">
+    <div class="container">
+      <h1>Galería</h1>
+      <p>Imágenes de nuestra huerta ecológica</p>
+    </div>
+  </div>
+  
+  <section class="gallery">
+    <div class="container">
+      <div class="gallery-filters">
+        <button 
+          class="filter-btn" 
+          [class.active]="activeCategory === 'todos'"
+          (click)="setCategory('todos')"
+        >
+          Todos
+        </button>
+        <button 
+          class="filter-btn" 
+          [class.active]="activeCategory === 'huerta'"
+          (click)="setCategory('huerta')"
+        >
+          La Huerta
+        </button>
+        <button 
+          class="filter-btn" 
+          [class.active]="activeCategory === 'productos'"
+          (click)="setCategory('productos')"
+        >
+          Productos
+        </button>
+        <button 
+          class="filter-btn" 
+          [class.active]="activeCategory === 'equipo'"
+          (click)="setCategory('equipo')"
+        >
+          Equipo
+        </button>
+        <button 
+          class="filter-btn" 
+          [class.active]="activeCategory === 'instalaciones'"
+          (click)="setCategory('instalaciones')"
+        >
+          Instalaciones
+        </button>
+        <button 
+          class="filter-btn" 
+          [class.active]="activeCategory === 'visitas'"
+          (click)="setCategory('visitas')"
+        >
+          Visitas
+        </button>
+      </div>
+      
+      <div class="gallery-grid">
+        @for (image of filteredImages; track image.id) {
+          <div class="gallery-item">
+            <div class="gallery-image">
+              <div class="image-placeholder">
+                <span>{{ image.title }}</span>
+              </div>
+            </div>
+            <div class="gallery-caption">
+              <h3>{{ image.title }}</h3>
+              <p>{{ image.description }}</p>
+            </div>
+          </div>
+        }
+      </div>
+    </div>
+  </section>
+  
+  <section class="video-section">
+    <div class="container">
+      <h2>Vídeos de Huerta La Curtia</h2>
+      <div class="video-container">
+        <div class="video-placeholder">
+          <span>Vídeo de la huerta</span>
+        </div>
+      </div>
+      <div class="video-description">
+        <h3>Un día en Huerta La Curtia</h3>
+        <p>Este vídeo muestra el día a día en nuestra huerta ecológica, desde la siembra hasta la cosecha, pasando por todas las tareas que realizamos para mantener nuestros cultivos sanos y productivos de manera sostenible.</p>
+      </div>
+    </div>
+  </section>
+  
+  <section class="instagram-feed">
+    <div class="container">
+      <h2>Síguenos en Instagram</h2>
+      <p class="text-center">Mantente al día con nuestras últimas novedades siguiéndonos en Instagram <a href="#" class="instagram-link">&#64;huertalacurtia</a></p>
+      
+      <div class="instagram-grid">
+        <div class="instagram-item">
+          <div class="image-placeholder">
+            <span>Instagram 1</span>
+          </div>
+        </div>
+        <div class="instagram-item">
+          <div class="image-placeholder">
+            <span>Instagram 2</span>
+          </div>
+        </div>
+        <div class="instagram-item">
+          <div class="image-placeholder">
+            <span>Instagram 3</span>
+          </div>
+        </div>
+        <div class="instagram-item">
+          <div class="image-placeholder">
+            <span>Instagram 4</span>
+          </div>
+        </div>
+        <div class="instagram-item">
+          <div class="image-placeholder">
+            <span>Instagram 5</span>
+          </div>
+        </div>
+        <div class="instagram-item">
+          <div class="image-placeholder">
+            <span>Instagram 6</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="cta">
+    <div class="container">
+      <h2>¿Quieres visitar nuestra huerta?</h2>
+      <p>Organizamos visitas guiadas para que puedas conocer de primera mano cómo cultivamos nuestros productos ecológicos.</p>
+      <a routerLink="/contacto" class="btn btn-primary">Reserva tu visita</a>
+    </div>
+  </section>
+  

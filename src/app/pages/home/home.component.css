@@ -1,0 +1,146 @@
+  /* Wellcome section */
+  .wellcome {
+    background-color: #e8f5e9;
+    text-align: center;
+    padding: 100px 20px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),
+      url("/assets/images/wellcome-bg.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .wellcome-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .wellcome h1 {
+    font-size: 2.5rem;
+    color: #2c4c3b;
+    margin-bottom: 20px;
+  }
+  
+  .wellcome p {
+    font-size: 1.2rem;
+    color: #4a7c59;
+    margin-bottom: 30px;
+  }
+  
+  .wellcome-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  /* Intro section */
+  .intro {
+    background-color: white;
+  }
+  
+  .intro-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .intro-text {
+    flex: 1;
+  }
+  
+  .intro-text p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+  }
+  
+  .intro-image {
+    flex: 1;
+    min-height: 300px;
+  }
+  
+  /* Featured products */
+  .featured-products {
+    background-color: #f9f9f9;
+  }
+  
+  .products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 30px;
+    margin-bottom: 40px;
+  }
+  
+  .product-card {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .product-image {
+    height: 200px;
+  }
+  
+  .product-card h3 {
+    padding: 15px 15px 5px;
+    font-size: 1.2rem;
+    color: #2c4c3b;
+  }
+  
+  .product-card p {
+    padding: 0 15px 15px;
+    color: #666;
+  }
+  
+  /* Benefits preview */
+  .benefits-preview {
+    background-color: #e8f5e9;
+  }
+  
+  .benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 30px;
+    margin-bottom: 40px;
+  }
+  
+  .benefit-card {
+    background-color: white;
+    padding: 30px 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .benefit-icon {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .benefit-card h3 {
+    margin-bottom: 10px;
+    color: #2c4c3b;
+  }
+  
+  .benefit-card p {
+    color: #666;
+  }
+  
+
+  
+  /* Media queries */
+  @media (min-width: 768px) {
+    .intro-content {
+      flex-direction: row;
+    }
+  
+    .wellcome h1 {
+      font-size: 3rem;
+    }
+  }
+  

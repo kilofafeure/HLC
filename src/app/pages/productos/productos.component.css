@@ -1,0 +1,245 @@
+  h2 {
+    text-align: center;
+  }
+    
+  /* Sección de introducción */
+  .products-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .products-text {
+    flex: 1;
+  }
+  
+  .products-text p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+  }
+  
+  .products-image {
+    flex: 1;
+    min-height: 300px;
+  }
+  
+  /* Catálogo de productos */
+  .products-catalog {
+    background-color: #f9f9f9;
+  }
+  
+  .products-filters {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .filter-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .filter-label {
+    font-weight: 600;
+    color: #2c4c3b;
+  }
+  
+  .filter-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .filter-btn {
+    padding: 8px 16px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: all 0.3s;
+  }
+  
+  .filter-btn:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .filter-btn.active {
+    background-color: #4a7c59;
+    color: white;
+  }
+  
+  .products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+  }
+  
+  .product-card {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .product-image {
+    height: 200px;
+    position: relative;
+  }
+  
+  .product-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #ff6b6b;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+  
+  .product-info {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+  
+  .product-info h3 {
+    margin: 0 0 10px;
+    color: #2c4c3b;
+  }
+  
+  .product-description {
+    margin: 0 0 15px;
+    color: #666;
+    flex-grow: 1;
+  }
+  
+  .product-meta {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    font-size: 0.9rem;
+  }
+  
+  .product-season {
+    color: #4a7c59;
+  }
+  
+  .product-price {
+    font-weight: 600;
+  }
+  
+  /* Calendario de temporada */
+  .seasonal-calendar {
+    background-color: white;
+  }
+  
+  .seasonal-calendar p {
+    max-width: 800px;
+    margin: 0 auto 30px;
+  }
+  
+  .calendar-container {
+    overflow-x: auto;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .calendar-header,
+  .calendar-row {
+    display: flex;
+    min-width: 900px;
+  }
+  
+  .calendar-header {
+    background-color: #4a7c59;
+    color: white;
+    font-weight: 600;
+  }
+  
+  .calendar-row:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .calendar-cell {
+    flex: 1;
+    padding: 12px 8px;
+    text-align: center;
+    border: 1px solid #e0e0e0;
+  }
+  
+  .calendar-cell.product-name {
+    flex: 2;
+    text-align: left;
+    font-weight: 600;
+    color: #2c4c3b;
+  }
+  
+  .calendar-cell.available {
+    background-color: #a8e6cf;
+  }
+  
+  /* Cómo comprar */
+  .how-to-buy {
+    background-color: #e8f5e9;
+  }
+  
+  .buying-options {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  
+  .buying-option {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .option-icon {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .buying-option h3 {
+    margin-bottom: 15px;
+    color: #2c4c3b;
+  }
+  
+  .buying-option p {
+    margin-bottom: 15px;
+    color: #666;
+  }
+  
+  /* Media queries */
+  @media (min-width: 768px) {
+    .products-content {
+      flex-direction: row;
+    }
+  
+    .products-filters {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .buying-options {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  

@@ -7,16 +7,9 @@ import { FooterComponent } from "./components/footer/footer.component"
   selector: "app-root",
   standalone: true,
   imports: [RouterOutlet, HeaderComponent, FooterComponent],
-  template: `
-    <div class="flex min-h-screen flex-col">
-      <app-header />
-      <main class="flex-1">
-        <router-outlet />
-      </main>
-      <app-footer />
-    </div>
-  `,
+  templateUrl: "./app.component.html",
+  styleUrl: "./app.component.css",
 })
 export class AppComponent {
-  title = "Huerta Ecológica La Curtia"
+  title = "Huerta La Curtia"
 }
