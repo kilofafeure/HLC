@@ -12,7 +12,8 @@
     margin: 0 auto;
   }
   
-  .footer-info {
+  .footer-info, 
+  .footer-social {
     text-align: center;
   }
   
@@ -26,27 +27,9 @@
     margin-bottom: 15px;
   }
   
-  .social-icons {
-    display: flex;
-    gap: 15px;
-  }
-  
-  .social-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 40px;
-    height: 40px;
-    background-color: var(--primary);
-    color: var(--white);
-    border-radius: 50%;
-    text-decoration: none;
-    transition: background-color 0.3s;
-  }
-  
-  .social-icon:hover {
-    background-color: var(--accent);
-    color: var(--primary-dark);
+  .social-icons > span {
+    padding-right: 10px;
+    padding-left: 10px;
   }
   
   .footer-bottom {
