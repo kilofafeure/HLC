@@ -25,6 +25,7 @@
   {
     font-size: 1.2rem;
     margin-bottom: 15px;
+    color: var(--accent);
   }
 
   .footer-bottom {
