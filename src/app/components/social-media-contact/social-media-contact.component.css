@@ -1,0 +1,29 @@
+  .social-icons > span {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  
+/* QR */
+
+.qr-whastapp:hover,
+.qr-telegram:hover {
+  position: relative;
+}
+
+.qr-whastapp:hover:after {
+  content: url(../../../assets/qr/qrcode_wthasapp.svg);
+  display: block;
+  position: absolute;
+  bottom: 70px; 
+  background-color: var(--accent-dark);
+  border-radius: 25px;
+}
+
+.qr-telegram:hover:after {
+  content: url(../../../assets/qr/qrcode_telegram.svg);
+  display: block;
+  position: absolute;
+  bottom: 70px; 
+  background-color: var(--accent-dark);
+  border-radius: 25px;
+}
