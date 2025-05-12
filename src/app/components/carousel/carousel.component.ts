@@ -59,7 +59,8 @@ import {
 
 export class CarouselComponent implements OnInit {
   @Input() slides: Slide[] = [];
-  @Input() animationType = AnimationType.Scale;
+  @Input() animationType = AnimationType.Fade;
+  @Input() isSlider = true;
 
   currentSlide = 0;
 
@@ -77,6 +78,8 @@ export class CarouselComponent implements OnInit {
 
   ngOnInit() {
     this.preloadImages(); 
+    if (this.isSlider)
+        setInterval(()=> { this.onNextClick() }, 5000);
   }
 
   preloadImages() {
