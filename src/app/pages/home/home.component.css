@@ -1,8 +1,3 @@
-  /* Intro section */
-  .intro {
-    background-color: var(--white);
-  }
-  
   /* Featured products */
   .featured-products {
     background-color: var(--gray-bg);
