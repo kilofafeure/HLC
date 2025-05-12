@@ -89,6 +89,10 @@
   }
   
   /* Certificaciones */
+  .certifications {
+    margin-top: -60px;
+  }
+
   .certifications-content {
     display: flex;
     flex-direction: column;

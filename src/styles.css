@@ -154,6 +154,7 @@ p {
 
  /* Cabecera de página */
  .page-header {
+  margin-top: -10px;
   background-color: var(--light-bg);
   padding: 60px 0;
   text-align: center;
