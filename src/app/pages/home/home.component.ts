@@ -15,6 +15,5 @@ export class HomeComponent {
     { headline: "", src: "../../../assets/carousel/home/home-1.jpeg" },
     { headline: "", src: "../../../assets/carousel/home/home-2.jpeg" },
     { headline: "", src: "../../../assets/carousel/home/home-3.jpeg" },
-    { headline: "", src: "../../../assets/carousel/home/home-4.jpeg" },
-    { headline: "", src: "../../../assets/carousel/home/home-5.jpeg" } ];
+    { headline: "", src: "../../../assets/carousel/home/home-4.jpeg" }];
 }

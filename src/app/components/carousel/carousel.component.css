@@ -58,11 +58,11 @@
 
 .arrow {
   display: block;
-  border-left: 0.1em solid white;
-  border-bottom: 0.1em solid white;
+  border-left: 0.1em solid var(--accent-dark);
+  border-bottom: 0.1em solid var(--accent-dark);
   width: 0.5em;
   height: 0.5em;
-
+  
   &.left {
     transform: rotate(45deg);
   }
