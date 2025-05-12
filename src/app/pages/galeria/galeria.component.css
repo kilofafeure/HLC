@@ -47,7 +47,7 @@
   .gallery-caption p {
     margin: 0;
     font-size: 0.9rem;
-    color: var(--text-light);
+    color: var(--shade-of-gray);
   }
   
   /* Sección de vídeo */
@@ -78,7 +78,7 @@
   }
   
   .video-description p {
-    color: var(--text-light);
+    color: var(--shade-of-gray);
     line-height: 1.6;
   }
   

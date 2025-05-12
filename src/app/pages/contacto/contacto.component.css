@@ -18,7 +18,7 @@
   
   .info-card h3 {
     margin-bottom: 15px;
-    color: var(--accent);
+    color: var(--secondary);
   }
   
   .info-card p {
@@ -50,7 +50,7 @@
   }
   
   .faq-item h3 {
-   color: var(--accent);
+   color: var(--secondary);
     margin-bottom: 10px;
   }
   

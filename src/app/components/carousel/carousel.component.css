@@ -58,8 +58,8 @@
 
 .arrow {
   display: block;
-  border-left: 0.1em solid var(--accent-dark);
-  border-bottom: 0.1em solid var(--accent-dark);
+  border-left: 0.1em solid var(--secondary-dark);
+  border-bottom: 0.1em solid var(--secondary-dark);
   width: 0.5em;
   height: 0.5em;
   

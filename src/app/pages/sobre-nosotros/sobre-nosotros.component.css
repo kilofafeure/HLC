@@ -52,7 +52,7 @@
   
   .team-member p:not(.member-role) {
     padding: 0 15px 15px;
-    color: var(--text-light);
+    color: var(--shade-of-gray);
   }
   
   /* Valores */
@@ -85,7 +85,7 @@
   }
   
   .value-card p {
-    color: var(--text-light);
+    color: var(--shade-of-gray);
   }
   
   /* Certificaciones */

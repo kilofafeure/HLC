@@ -26,14 +26,14 @@
   {
     font-size: 1.2rem;
     margin-bottom: 15px;
-    color: var(--accent);
+    color: var(--secondary);
   }
 
   .footer-bottom {
     text-align: center;
     padding: 15px;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
-    color: var(--accent);
+    color: var(--secondary);
   }
   
   @media (min-width: 768px) {

@@ -15,7 +15,7 @@
   display: block;
   position: absolute;
   bottom: 70px; 
-  background-color: var(--accent-dark);
+  background-color: var(--secondary-dark);
   border-radius: 25px;
   right: -110px;
 }
@@ -25,7 +25,7 @@
   display: block;
   position: absolute;
   bottom: 70px; 
-  background-color: var(--accent-dark);
+  background-color: var(--secondary-dark);
   border-radius: 25px;
   right: -110px;
 }

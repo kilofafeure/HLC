@@ -62,7 +62,7 @@
   
   .nav-item a:hover,
   .nav-item a.active {
-    color: var(--accent);
+    color: var(--secondary);
   }
   
   .nav-item a::after {
@@ -72,7 +72,7 @@
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: var(--accent);
+    background-color: var(--secondary);
     transition: width 0.3s;
   }
   
