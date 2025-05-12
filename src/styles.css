@@ -237,8 +237,6 @@ p {
   color: var(--white);
 }
 
-/* Carousel */
-
 /* Media queries */
 @media (min-width: 768px) {
   .page-header h1 {

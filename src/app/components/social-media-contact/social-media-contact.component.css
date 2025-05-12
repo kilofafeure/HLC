@@ -17,6 +17,7 @@
   bottom: 70px; 
   background-color: var(--accent-dark);
   border-radius: 25px;
+  right: -110px;
 }
 
 .qr-telegram:hover:after {
@@ -26,4 +27,5 @@
   bottom: 70px; 
   background-color: var(--accent-dark);
   border-radius: 25px;
+  right: -110px;
 }
