@@ -18,14 +18,21 @@
         <ul class="nav-list">
           @for (item of menuItems; track item.path) {
             <li class="nav-item">
-              <a 
-                [routerLink]="item.path" 
-                routerLinkActive="active" 
-                [routerLinkActiveOptions]="{exact: item.path === '/inicio'}"
-                (click)="isMenuOpen = false"
-              >
-                {{ item.label }}
-              </a>
+              @if (item.label === 'Tienda') {
+                <a href="https://huertalacurtia.pod.coop/1444/" target="_blank">
+                   {{ item.label }}
+                </a>
+              }
+              @else {
+                <a 
+                  [routerLink]="item.path" 
+                  routerLinkActive="active" 
+                  [routerLinkActiveOptions]="{exact: item.path === '/inicio'}"
+                  (click)="isMenuOpen = false"
+                >
+                  {{ item.label }}
+                </a>
+              }
             </li>
           }
         </ul>
