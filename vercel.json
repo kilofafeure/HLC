@@ -1,0 +1,5 @@
+{
+    "cleanUrls": true,
+    "installCommand": "npm install",
+    "outputDirectory": "dist"
+}
