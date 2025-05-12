@@ -49,6 +49,10 @@ a:hover {
   text-align: center;
 }
 
+.display-ruby {
+  display: ruby;
+}
+
   /* Sección de introducción */
 .description-content {
   display: flex;
