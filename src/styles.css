@@ -70,6 +70,10 @@ a:hover {
   min-height: 300px;
 }
 
+.description-carousel {
+  flex: 2
+}
+
 /* Estilos generales */
 .container {
   max-width: 1200px;
@@ -235,6 +239,8 @@ p {
   background-color: var(--primary);
   color: var(--white);
 }
+
+/* Carousel */
 
 /* Media queries */
 @media (min-width: 768px) {

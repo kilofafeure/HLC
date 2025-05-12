@@ -1,0 +1,31 @@
+
+<!-- https://stackblitz.com/github/brampeirs/angular-carousel?file=src%2Fapp%2Fcarousel%2Fcarousel.component.html -->
+<div class="carousel">
+  <!-- <container *ngFor="let slide of slides; let i = index">
+    <img
+      *ngIf="i === currentSlide"
+      [src]="slide.src"
+      class="slide"
+      [@slideAnimation]="animationType"
+    />
+  <container> -->
+
+  <div>
+    @for (slide of slides; track slide.src; let idx = $index) {
+      @if (idx === currentSlide) {
+        <img
+          [src]="slide.src"
+          class="slide"
+          [@slideAnimation]="animationType"
+        />
+      }
+    }
+  </div>
+
+  <button class="control prev" (click)="onPreviousClick()">
+    <span class="arrow left"></span>
+  </button>
+  <button class="control next" (click)="onNextClick()">
+    <span class="arrow right"></span>
+  </button>
+</div>
