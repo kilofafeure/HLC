@@ -9,20 +9,34 @@ import { NgOptimizedImage } from "@angular/common";
   templateUrl: "./header.component.html",
   styleUrl: "./header.component.css",
 })
+
 export class HeaderComponent {
   menuItems = [
     { path: "/inicio", label: "Inicio" },
     { path: "/sobre-nosotros", label: "Sobre Nosotros" },
     { path: "/beneficios", label: "Beneficios" },
-    // { path: "/galeria", label: "Galería" },
     // { path: "/productos", label: "Productos" },
     { path: "/contacto", label: "Contacto/FAQs" },
-    { path: "routeShop", label: "Tienda" },
+    { path: "Tienda", label: "Tienda" },
   ]
 
-  isMenuOpen = false
+  isMenuOpen: boolean = false
+  tipoModo: string = "Modo claro"
 
   toggleMenu() {
     this.isMenuOpen = !this.isMenuOpen
+  }
+
+  switchTheme(e: any) {
+    if (e.target.checked) {
+      this.tipoModo = "Modo oscuro";
+      document.documentElement.setAttribute('data-theme', 'light');
+      localStorage.setItem('theme', 'light');
+    }
+    else {
+        this.tipoModo = "Modo claro";       
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+    }    
   }
 }

@@ -8,8 +8,8 @@ import { Slide } from "../../components/carousel/carousel.interface"
   standalone: true,
   imports: [RouterLink, CarouselComponent],
   templateUrl: "./home.component.html",
-  styleUrl: "./home.component.css",
 })
+
 export class HomeComponent {
   slides: Slide[] = [
     { headline: "", src: "../../../assets/carousel/home/home-1.jpeg" },

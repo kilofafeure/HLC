@@ -15,10 +15,6 @@
 }
   
   /* Misión y visión */
-  .mission-vision {
-    background-color: var(--gray-bg);
-  }
-  
   .mission-vision-grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -71,10 +67,6 @@
   }
   
   /* Valores */
-  .values {
-    background-color: var(--light-bg);
-  }
-  
   .values-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
