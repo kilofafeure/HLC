@@ -1,4 +1,19 @@
+  /* QR */
+.qr-copae:hover {
+  position: relative;
+}
 
+.qr-copae:hover:after  {
+  content: url(../../../assets/qr/qr_copae.svg);
+  display: block;
+  position: absolute;
+  bottom: 70px; 
+  background-color: var(--secondary-dark);
+  border-radius: 25px;
+  right: -80px;
+  margin-bottom: -25px;
+}
+  
   /* Misión y visión */
   .mission-vision {
     background-color: var(--gray-bg);
@@ -93,49 +108,29 @@
     margin-top: -60px;
   }
 
-  .certifications-content {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-  }
-  
   .certifications-text {
-    flex: 1;
-  }
-  
-  .certifications-text p {
     margin-bottom: 15px;
     line-height: 1.6;
-  }
+  } 
   
   .certifications-text ul {
     padding-left: 20px;
+    display: inline;
+    vertical-align: middle;
+    text-align: center;
   }
   
   .certifications-text li {
-    margin-bottom: 10px;
+    margin: 10px 0;
+    list-style: none;
   }
-  
-  .certifications-logos {
-    flex: 1;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
+
+  .certifications-text li .li-qr {
+    margin-left: 20px;
+    display: inline;
+    vertical-align: middle;
   }
-  
-  .logo-placeholder {
-    width: 150px;
-    height: 100px;
-    background-color: var(--bright-gray-bg);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--shade-of-gray);
-    font-style: italic;
-    border-radius: 4px;
-  }
-  
+
   /* Media queries */
   @media (min-width: 768px) {
  

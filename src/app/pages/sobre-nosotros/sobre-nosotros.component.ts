@@ -1,11 +1,12 @@
 import { Component } from "@angular/core"
 import { CarouselComponent } from "../../components/carousel/carousel.component"
 import { Slide } from "../../components/carousel/carousel.interface"
+import { NgOptimizedImage } from "@angular/common";
 
 @Component({
   selector: "app-sobre-nosotros",
   standalone: true,
-  imports: [CarouselComponent],
+  imports: [CarouselComponent, NgOptimizedImage],
   templateUrl: "./sobre-nosotros.component.html",
   styleUrl: "./sobre-nosotros.component.css",
 })
