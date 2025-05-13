@@ -61,18 +61,16 @@ export class CarouselComponent implements OnInit, OnDestroy {
   @Input() slides: Slide[] = [];
   @Input() animationType: AnimationType = AnimationType.Fade;
   @Input() isSlider: boolean = true;
+  @Input() intervalTimer: number = 5000;
 
   currentSlide: number = 0;
   interval: any;
 
-  constructor() {
-    if (this.isSlider)
-      this.resetInterval();
-  }
+  constructor() {}
 
   resetInterval() {
     clearInterval(this.interval);
-    this.interval = setInterval(()=> { this.onNextClick() }, 5000);
+    this.interval = setInterval(()=> { this.onNextClick() }, this.intervalTimer);
   }
 
   onPreviousClick() {
@@ -98,7 +96,7 @@ export class CarouselComponent implements OnInit, OnDestroy {
   ngOnInit() {
     this.preloadImages(); 
     if (this.isSlider)
-      this.interval;
+      this.resetInterval();
   }
 
   preloadImages() {
