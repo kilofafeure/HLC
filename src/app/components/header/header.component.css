@@ -101,6 +101,9 @@
   }
   
   /* Dark mode */
+  .theme-switch {
+    transform: scale(0.8);
+  }
   
   .theme-switch-wrapper {
     display: flex;
