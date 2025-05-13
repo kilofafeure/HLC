@@ -1,6 +1,6 @@
 /* Colores de la marca */
 :root {
-  --body-bg: #0e3314;
+  --body-bg: #021a06;
   --primary: #5e7e66;
   --primary-dark: #2c4c3b;
   --primary-hover: #3a6249;
@@ -10,7 +10,7 @@
   --white: #fff;
   --warning: #ff6b6b;
   --checkbox-button:#f8e16c;
-  --checkbox-selected: #3a6249;
+  --checkbox-selected: #777;
   --checkbox-not-selected:#3a6249;
   --text-color-black: white;
   --text-color-h2: white;
@@ -27,7 +27,7 @@ html[data-theme='light'] {
   --white: #fff;
   --warning: #ff6b6b;
   --checkbox-button:#f8e16c;
-  --checkbox-selected: #3a6249;
+  --checkbox-selected: #777;
   --checkbox-not-selected:#3a6249;
   --text-color-black: black;
   --text-color-h2: #2c4c3b;
