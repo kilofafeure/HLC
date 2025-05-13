@@ -1,9 +1,4 @@
-  .social-icons > div {
-    padding-right: 10px;
-    padding-left: 10px;
-    display: inline-block;
-  }
-  
+
 /* QR */
 .qr-whastapp:hover,
 .qr-telegram:hover {

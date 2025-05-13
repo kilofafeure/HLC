@@ -1,0 +1,9 @@
+<div class="social-icons-inline">
+    @for (socialMedia of socialMediaData; track socialMedia.imageSrc; let idx = $index) {   
+        <div>
+            <a [href]="socialMedia.imageLink" target="_blank">
+            <div><img [src]="socialMedia.imageSrc" alt="" width="40" height="40"/></div>
+            </a>
+        </div>
+    }
+</div>
