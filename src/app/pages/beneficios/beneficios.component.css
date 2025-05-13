@@ -15,33 +15,9 @@
   }
   
   /* Secciones de beneficios */
-  .benefits-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 30px;
-  }
-  
-  .benefit-card {
-    background-color: var(--primary);
-    padding: 30px 20px;
-    border-radius: 8px;
-    text-align: center;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
-    height: 100%;
-  }
-  
   .benefit-icon {
     font-size: 2.5rem;
     margin-bottom: 15px;
-  }
-  
-  .benefit-card h3 {
-    margin-bottom: 10px;
-    color: var(--secondary);
-  }
-  
-  .benefit-card p {
-    color: var(--white);
   }
   
   /* Media queries */

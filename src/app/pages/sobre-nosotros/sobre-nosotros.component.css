@@ -67,32 +67,9 @@
   }
   
   /* Valores */
-  .values-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 30px;
-  }
-  
-  .value-card {
-    background-color: var(--white);
-    padding: 30px 20px;
-    border-radius: 8px;
-    text-align: center;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
-  }
-  
   .value-icon {
     font-size: 2.5rem;
     margin-bottom: 15px;
-  }
-  
-  .value-card h3 {
-    margin-bottom: 10px;
-   color: var(--primary-dark);
-  }
-  
-  .value-card p {
-    color: var(--shade-of-gray);
   }
   
   /* Certificaciones */

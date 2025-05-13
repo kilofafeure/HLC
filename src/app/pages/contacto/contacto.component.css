@@ -41,57 +41,21 @@
     gap: 20px;
   }
   
-  .faq-item {
-    background-color: var(--primary);
+  .card {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
   }
   
-  .faq-item h3 {
-   color: var(--secondary);
-    margin-bottom: 10px;
+  /* Friends */
+  .friends-section {
+    margin-top: -90px;
   }
   
-  .faq-item p {
-    color: var(--white);
-  }
-  
-  /* Newsletter */
-  .newsletter {
-    background-color: var(--primary);
-    color: var(--white);
+  .friends-section h2 {
     text-align: center;
   }
-  
-  .newsletter h2 {
-    color: var(--white);
-  }
-  
-  .newsletter p {
-    max-width: 600px;
-    margin: 0 auto 30px;
-  }
-  
-  .newsletter-form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    max-width: 500px;
-    margin: 0 auto;
-  }
-  
-  .newsletter-form input {
-    padding: 12px;
-    border: none;
-    border-radius: 4px;
-    font-size: 1rem;
-  }
-  
-  .newsletter-form input:focus {
-    outline: none;
-  }
-  
+
   /* Media queries */
   @media (min-width: 768px) {
     .contact-grid {
