@@ -89,6 +89,12 @@ export class CarouselComponent implements OnInit, OnDestroy {
       this.resetInterval();
   }
 
+  goToSlide(idx: number) {
+    this.currentSlide = idx;
+    if (this.isSlider)
+      this.resetInterval();
+  }
+
   ngOnInit() {
     this.preloadImages(); 
     if (this.isSlider)

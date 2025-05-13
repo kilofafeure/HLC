@@ -6,6 +6,7 @@
   --primary-hover: #3a6249;
   --secondary: #f8e16c;
   --secondary-dark: #f5d742;
+  --secondary-ligth: #edda78;
   --shade-of-gray: #777;
   --white: #fff;
   --warning: #ff6b6b;
@@ -23,6 +24,7 @@ html[data-theme='light'] {
   --primary-hover: #3a6249;
   --secondary: #f8e16c;
   --secondary-dark: #f5d742;
+  --secondary-ligth: #edda78;
   --shade-of-gray: #777;
   --white: #fff;
   --warning: #ff6b6b;

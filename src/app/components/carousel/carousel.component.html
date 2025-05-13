@@ -1,5 +1,5 @@
 <div class="carousel">
-  <div>
+  @if (slides.length > 0) {
     @for (slide of slides; track slide.src; let idx = $index) {
       @if (idx === currentSlide) {
         <img
@@ -9,12 +9,21 @@
         />
       }
     }
-  </div>
-
-  <button class="control prev" (click)="onPreviousClick()">
-    <span class="arrow left"></span>
-  </button>
-  <button class="control next" (click)="onNextClick()">
-    <span class="arrow right"></span>
-  </button>
+    <button class="control prev" (click)="onPreviousClick()">
+      <span class="arrow left"></span>
+    </button>
+    <button class="control next" (click)="onNextClick()">
+      <span class="arrow right"></span>
+    </button>
+    <div class="dot-div">
+      @for (slide of slides; track slide.src; let idx = $index) {
+        @if (idx === currentSlide) { 
+           <span class="dot active" (click)="goToSlide(idx)"></span>
+        }
+        @else {
+          <span class="dot" (click)="goToSlide(idx)"></span>
+        }
+      }
+    </div>
+  }
 </div>
