@@ -10,7 +10,7 @@
   --white: #fff;
   --warning: #ff6b6b;
   --checkbox-button:#f8e16c;
-  --checkbox-selected: #66bb6a;
+  --checkbox-selected: #3a6249;
   --checkbox-not-selected:#3a6249;
   --text-color-black: white;
   --text-color-h2: white;
@@ -27,7 +27,7 @@ html[data-theme='light'] {
   --white: #fff;
   --warning: #ff6b6b;
   --checkbox-button:#f8e16c;
-  --checkbox-selected: #66bb6a;
+  --checkbox-selected: #3a6249;
   --checkbox-not-selected:#3a6249;
   --text-color-black: black;
   --text-color-h2: #2c4c3b;
