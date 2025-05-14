@@ -87,16 +87,9 @@
     padding: 10px;
     flex-direction: column;
     justify-content: space-around;
-    height: 24px;
     border-radius: 25px;
-  }
-  
-  .menu-toggle span {
-    display: block;
-    width: 25px;
-    height: 3px;
-    background-color: var(--white);
-    transition: all 0.3s;
+    color: var(--secondary-dark);
+    background-color: var(--checkbox-selected);
   }
   
   /* Dark mode */
