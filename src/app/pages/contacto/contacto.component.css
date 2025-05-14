@@ -65,14 +65,6 @@
     .faq-grid {
       grid-template-columns: repeat(2, 1fr);
     }
-  
-    .newsletter-form {
-      flex-direction: row;
-    }
-  
-    .newsletter-form input {
-      flex: 1;
-    }
   }
 
     /* Media queries */
@@ -92,15 +84,11 @@
     .newsletter-form input {
       flex: 1;
     }
-
-    .info-card {
-      margin-bottom: 100px;
-    }
   }
 
   @media (max-width: 719px) {
     .info-card {
-      margin-bottom: 100px;
+      margin-bottom: 300px;
     }
   }
   
