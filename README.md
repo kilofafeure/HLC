@@ -26,4 +26,4 @@ This project is licensed under the MIT License.
 For questions, feedback, or issues:
 
 - Author: kilofafeure
-- Email: kilofafeure@gmail.com (replace with actual email if desired)
+- Email: kilofafeure@gmail.com
