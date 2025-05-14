@@ -5,10 +5,9 @@
     "copy": "copy-folder dist/browser docs",
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --output-path=dist && npm run copy",
+    "build": "ng build --output-path=dist",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
-    
   },
   "private": true,
   "dependencies": {
