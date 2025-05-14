@@ -97,4 +97,10 @@
       margin-bottom: 100px;
     }
   }
+
+  @media (max-width: 719px) {
+    .info-card {
+      margin-bottom: 100px;
+    }
+  }
   
