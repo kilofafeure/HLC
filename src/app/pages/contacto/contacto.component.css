@@ -14,7 +14,6 @@
     text-align: inherit;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
     min-width: 300px;
-    margin-bottom: 50px;
   }
   
   .info-card h3 {
@@ -73,6 +72,29 @@
   
     .newsletter-form input {
       flex: 1;
+    }
+  }
+
+    /* Media queries */
+  @media (min-width: 768px) {
+    .contact-grid {
+      grid-template-columns: 3fr 2fr;
+    }
+  
+    .faq-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .newsletter-form {
+      flex-direction: row;
+    }
+  
+    .newsletter-form input {
+      flex: 1;
+    }
+
+    .info-card {
+      margin-bottom: 100px;
     }
   }
   
