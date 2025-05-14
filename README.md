@@ -9,8 +9,8 @@ Huerta la Curtia: Briefly describe what this project does, its purpose, and its 
 - [Contact](#contact)
 
 ## Prerequisites
-- [Node.js](https://nodejs.org/) (version X.X.X or higher)
-- [Angular CLI](https://angular.io/cli) (version 19.0.0 or higher)
+- [Node.js](https://nodejs.org/) 
+- [Angular CLI](https://angular.io/cli) (version 19.0.0)
 - Any other dependencies or tools.
 
 ## Technologies Used
