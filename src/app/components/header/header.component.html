@@ -7,13 +7,6 @@
         <h1>Huerta La Curtia</h1> 
       </a>
     </div>
-    
-    <button class="menu-toggle" (click)="toggleMenu()" aria-label="Menú">
-      <span></span>
-      <span></span>
-      <span></span>
-    </button>
-    
     <nav class="main-nav" [class.active]="isMenuOpen">
       <ul class="nav-list">
         @for (item of menuItems; track item.path) {
@@ -36,16 +29,19 @@
           </li>
         }
       </ul>
+      <div class="theme-switch-wrapper">
+        <label class="theme-switch" for="checkbox">
+              <input type="checkbox" id="checkbox" (change)="switchTheme($event)"  />
+              <div class="slider round"></div>
+        </label>
+        <span>{{ tipoModo }}</span>
+      </div>
+      <button class="menu-toggle" (click)="toggleMenu()" aria-label="Menú">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
     </nav>
-
-    <div class="theme-switch-wrapper">
-      <label class="theme-switch" for="checkbox">
-            <input type="checkbox" id="checkbox" (change)="switchTheme($event)"  />
-            <div class="slider round"></div>
-      </label>
-      <span>{{ tipoModo }}</span>
-    </div>
-
   </div>
 </header>
   
