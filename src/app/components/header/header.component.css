@@ -88,6 +88,7 @@
     flex-direction: column;
     justify-content: space-around;
     height: 24px;
+    border-radius: 25px;
   }
   
   .menu-toggle span {
@@ -116,7 +117,6 @@
     margin-left: 5px;
     font-size: 1rem;
   }
-
 
   .theme-switch input {
     display:none;

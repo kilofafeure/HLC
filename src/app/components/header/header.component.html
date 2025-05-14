@@ -36,11 +36,12 @@
         </label>
         <span>{{ tipoModo }}</span>
       </div>
-      <button class="menu-toggle" (click)="toggleMenu()" aria-label="Menú">
-        <span></span>
-        <span></span>
-        <span></span>
+      <button id="menu-bt" aria-label="Menú">
+          <span></span>
+          <span></span>
+          <span></span>
       </button>
+      <label class="menu-toggle" (click)="toggleMenu()" for="menu-bt">Menú</label><br>
     </nav>
   </div>
 </header>

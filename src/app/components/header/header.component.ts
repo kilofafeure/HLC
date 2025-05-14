@@ -15,7 +15,6 @@ export class HeaderComponent {
     { path: "/inicio", label: "Inicio" },
     { path: "/sobre-nosotros", label: "Sobre Nosotros" },
     { path: "/beneficios", label: "Beneficios" },
-    // { path: "/productos", label: "Productos" },
     { path: "/contacto", label: "Contacto/FAQs" },
     { path: "Tienda", label: "Tienda" },
   ]
