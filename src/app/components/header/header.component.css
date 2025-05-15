@@ -98,6 +98,8 @@
 
   .switchTheme button {
     border: none;
+    cursor: pointer;
+    vertical-align: middle;
   }
   
   .slider {
