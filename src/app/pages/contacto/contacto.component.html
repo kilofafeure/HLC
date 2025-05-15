@@ -5,16 +5,16 @@
     </div>
   </div>
   
-  <section>
+  <section class="contact-section">
     <div class="container">
-      <div class="info-grid">
-        <div class="info-card">
+      <div class="two-columns">
+        <div class="card">
           <div>
             <img ngSrc = "../../../assets/icons/lucide/tent.svg" alt="Contacto" width="40" height="40"/>
           </div>
           <app-address></app-address>
         </div>
-        <div class="info-card">
+        <div class="card">
           <div>
             <img ngSrc = "../../../assets/icons/lucide/globe.svg" alt="Redes Sociales" width="40" height="40"/>
           </div>
@@ -28,7 +28,7 @@
   <section class="faq-section">
     <div class="container">
       <h2>Preguntas Frecuentes</h2>
-      <div class="faq-grid">
+      <div class="two-columns">
         <div class="card">
           <h3>¿Realizáis envíos a domicilio?</h3>
           <p>Sí, realizamos envíos de cestas personalizadas a domicilio en un radio de 30km. Consulta condiciones y tarifas.</p>
@@ -52,16 +52,16 @@
   <section class="friends-section">  
     <div class="container">
       <h2>Amigos</h2>
-      <div class="info-grid">
-        <div class="info-card">
+      <div class="three-columns">
+        <div class="card">
           <h3>Huerta la Enredadera</h3>
           <app-social-media-links [socialMediaData]="smEnredadera"></app-social-media-links>
         </div>
-        <div class="info-card">
+        <div class="card">
           <h3>Huerta la Joyana</h3>
           <app-social-media-links [socialMediaData]="smLaJoyana"></app-social-media-links>
         </div>
-        <div class="info-card">
+        <div class="card">
           <h3>Huerta Papuela de Libélula</h3>  
           <app-social-media-links [socialMediaData]="smLibelula"></app-social-media-links>
         </div>

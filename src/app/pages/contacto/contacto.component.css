@@ -6,39 +6,15 @@
     width:100%;
     text-align:center;
   }
-  
-  .info-card {
-    background-color: var(--primary);
-    padding: 15px 15px;
-    border-radius: 15px;
-    text-align: inherit;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
-    min-width: 300px;
-  }
-  
-  .info-card h3 {
-    margin-bottom: 15px;
-    color: var(--secondary);
-  }
-  
-  .info-card p {
-    margin-bottom: 5px;
-    color: var(--white);
-  }
-  
-  /* Preguntas frecuentes */
-  .faq-section {
+
+  .faq-section,
+  .friends-section {
     margin-top: -90px;
   }
   
-  .faq-section h2 {
+  .faq-section h2,
+  .friends-section h2 {
     text-align: center;
-  }
-  
-  .faq-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 20px;
   }
   
   .card {
@@ -46,49 +22,4 @@
     border-radius: 8px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
   }
-  
-  /* Friends */
-  .friends-section {
-    margin-top: -90px;
-  }
-  
-  .friends-section h2 {
-    text-align: center;
-  }
-
-  /* Media queries */
-  @media (min-width: 768px) {
-    .contact-grid {
-      grid-template-columns: 3fr 2fr;
-    }
-  
-    .faq-grid {
-      grid-template-columns: repeat(2, 1fr);
-    }
-  }
-
-    /* Media queries */
-  @media (min-width: 768px) {
-    .contact-grid {
-      grid-template-columns: 3fr 2fr;
-    }
-  
-    .faq-grid {
-      grid-template-columns: repeat(2, 1fr);
-    }
-  
-    .newsletter-form {
-      flex-direction: row;
-    }
-  
-    .newsletter-form input {
-      flex: 1;
-    }
-  }
-
-  /* @media (max-width: 719px) {
-    .info-card {
-      margin-bottom: 300px;
-    }
-  } */
   
