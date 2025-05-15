@@ -19,11 +19,11 @@ export class HeaderComponent {
     { path: "Tienda", label: "Tienda" },
   ]
 
-  isMenuOpen: boolean = false
-  isDarkMode: boolean = true
+  isMenuOpen: boolean = false;
+  isDarkMode: boolean = true;
 
   toggleMenu() {
-    this.isMenuOpen = !this.isMenuOpen
+    this.isMenuOpen = !this.isMenuOpen;
   }
 
   switchTheme() {

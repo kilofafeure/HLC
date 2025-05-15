@@ -84,18 +84,14 @@
     display: none;
     border: none;
     cursor: pointer;
-    padding: 10px;
-    flex-direction: column;
-    justify-content: space-around;
-    border-radius: 25px;
-    color: var(--secondary-dark);
-    background-color: var(--checkbox-selected);
   }
-  
+ 
+  .menu-toggle img,
   .switchTheme img {
     background-color: var(--primary);
   }
 
+  .menu-toggle button,
   .switchTheme button {
     border: none;
     cursor: pointer;
@@ -141,7 +137,6 @@
   }
 
   /* Media queries */
-
   @media (max-width: 768px) {
     .menu-toggle {
       display: flex;

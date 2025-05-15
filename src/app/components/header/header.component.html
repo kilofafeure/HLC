@@ -29,18 +29,22 @@
           </li>
         }
       </ul>
-      <div class="switchTheme">
-        <button (click)="switchTheme()">
-          @if (isDarkMode) {
-            <img ngSrc = "../../../assets/icons/lucide/sun.svg" alt="Modo claro" width="25" height="25"/>
-          }
-          @else {
-            <img ngSrc = "../../../assets/icons/lucide/moon-star.svg" alt="Modo oscuro" width="25" height="25"/>
-          }
-        </button>
-      </div>
-      <label class="menu-toggle" (click)="toggleMenu()" for="menu-bt">Menú</label><br>
     </nav>
+    <div class="menu-toggle">
+      <button (click)="toggleMenu()">
+        <img ngSrc = "../../../assets/icons/lucide/menu.svg" alt="Menú" width="25" height="25"/>
+      </button>
+    </div>       
+    <div class="switchTheme">
+      <button (click)="switchTheme()">
+        @if (isDarkMode) {
+          <img ngSrc = "../../../assets/icons/lucide/sun.svg" alt="Modo claro" width="25" height="25"/>
+        }
+        @else {
+          <img ngSrc = "../../../assets/icons/lucide/moon-star.svg" alt="Modo oscuro" width="25" height="25"/>
+        }
+      </button>
+    </div> 
   </div>
 </header>
   
