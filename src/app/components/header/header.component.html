@@ -29,12 +29,15 @@
           </li>
         }
       </ul>
-      <div class="theme-switch-wrapper">
-        <label class="theme-switch" for="checkbox">
-              <input type="checkbox" id="checkbox" (change)="switchTheme($event)"  />
-              <div class="slider round"></div>
-        </label>
-        <span>{{ tipoModo }}</span>
+      <div class="switchTheme">
+        <button (click)="switchTheme()">
+          @if (isDarkMode) {
+            <img ngSrc = "../../../assets/icons/lucide/sun.svg" alt="Modo claro" width="25" height="25"/>
+          }
+          @else {
+            <img ngSrc = "../../../assets/icons/lucide/moon-star.svg" alt="Modo oscuro" width="25" height="25"/>
+          }
+        </button>
       </div>
       <label class="menu-toggle" (click)="toggleMenu()" for="menu-bt">Menú</label><br>
     </nav>

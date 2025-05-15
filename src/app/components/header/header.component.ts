@@ -20,22 +20,22 @@ export class HeaderComponent {
   ]
 
   isMenuOpen: boolean = false
-  tipoModo: string = "Modo claro"
+  isDarkMode: boolean = true
 
   toggleMenu() {
     this.isMenuOpen = !this.isMenuOpen
   }
 
-  switchTheme(e: any) {
-    if (e.target.checked) {
-      this.tipoModo = "Modo oscuro";
-      document.documentElement.setAttribute('data-theme', 'light');
-      localStorage.setItem('theme', 'light');
+  switchTheme() {
+    if (!this.isDarkMode) {
+      this.isDarkMode = true;
+      document.documentElement.setAttribute('data-theme', 'dark');
+      localStorage.setItem('theme', 'dark');
     }
     else {
-        this.tipoModo = "Modo claro";       
-        document.documentElement.setAttribute('data-theme', 'dark');
-        localStorage.setItem('theme', 'dark');
+        this.isDarkMode = false  
+        document.documentElement.setAttribute('data-theme', 'light');
+        localStorage.setItem('theme', 'light');
     }    
   }
 }

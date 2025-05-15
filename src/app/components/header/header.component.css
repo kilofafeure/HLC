@@ -92,29 +92,14 @@
     background-color: var(--checkbox-selected);
   }
   
-  /* Dark mode */
-  .theme-switch {
-    transform: scale(0.8);
-    height: 34px;
-    position: relative;
-    width: 60px;
-    margin-left: 50px;
+  .switchTheme img {
+    background-color: var(--primary);
   }
 
-  .theme-switch-wrapper {
-    display: flex;
-    align-items: center;
+  .switchTheme button {
+    border: none;
   }
-
-  .theme-switch-wrapper > span {
-    margin-left: 5px;
-    font-size: 1rem;
-  }
-
-  .theme-switch input {
-    display:none;
-  }
-
+  
   .slider {
     background-color: var(--checkbox-not-selected);
     bottom: 0;

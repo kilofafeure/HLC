@@ -73,7 +73,7 @@ a:hover {
   display: ruby;
 }
 
-  /* Sección de introducción */
+/* Sección de introducción */
 .description-content {
   display: flex;
   flex-direction: column;
@@ -299,4 +299,11 @@ p {
     display: grid;
     gap: 20px;    
   }
+/* 
+  .two-columns > .card,
+  .three-columns > .card {
+    max-width: 500px;
+    text-align: center;
+    margin:auto;
+  } */
 }
