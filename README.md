@@ -10,13 +10,13 @@ Huerta la Curtia: Briefly describe what this project does, its purpose, and its 
 
 ## Prerequisites
 - [Node.js](https://nodejs.org/) 
-- [Angular CLI](https://angular.io/cli) (version 19.0.0)
+- [Angular CLI](https://angular.io/cli) (version 21.2.12)
 - Any other dependencies or tools.
 
 ## Technologies Used
 - HTML
 - CSS
-- Angular 19
+- Angular 21.2.12
 - TypeScript
 
 ## License
