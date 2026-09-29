@@ -66,6 +66,10 @@
     color: var(--shade-of-gray);
   }
   
+  .section-less {
+    margin-top: -60px;
+  }
+
   /* Valores */
   .value-icon {
     font-size: 2.5rem;
@@ -73,10 +77,6 @@
   }
   
   /* Certificaciones */
-  .certifications {
-    margin-top: -60px;
-  }
-
   .certifications-text {
     margin-bottom: 15px;
     line-height: 1.6;
