@@ -1,5 +1,6 @@
 import { Component, Input, OnInit, OnDestroy, computed } from "@angular/core";
 import { Slide } from "./carousel.interface";
+import { NgOptimizedImage } from "@angular/common";
 
 export enum AnimationType {
   Scale = "scale",
@@ -12,6 +13,7 @@ export enum AnimationType {
   selector: "carousel",
   templateUrl: "./carousel.component.html",
   styleUrls: ["./carousel.component.css"],
+  imports: [NgOptimizedImage],
 })
 
 export class CarouselComponent implements OnInit, OnDestroy {
@@ -41,7 +43,6 @@ export class CarouselComponent implements OnInit, OnDestroy {
   }
 
   onNextClick() {
-     console.log('>>> onNextClick fired, currentSlide:', this.currentSlide);
     const next = this.currentSlide + 1;
     this.currentSlide = next === this.slides.length ? 0 : next;
     if (this.isSlider)

@@ -3,8 +3,10 @@
     @for (slide of slides; track slide.src; let idx = $index) {
       @if (idx === currentSlide) {
         <img
-          [src]="slide.src"
+          [ngSrc]="slide.src"
           class="slide"
+          fill
+          priority
           [animate.enter]="enterClass()"
           [animate.leave]="leaveClass()"
         />
