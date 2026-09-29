@@ -2,6 +2,10 @@
     text-align: center;
   }
 
+  .section-less {
+    margin-top: -60px;
+  }
+
   /* Sección de introducción */
   .benefits-content {
     display: flex;

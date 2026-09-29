@@ -1,4 +1,8 @@
-  /* QR */
+  .section-less {
+    margin-top: -60px;
+  }
+
+ /* QR */
 .qr-copae:hover {
   position: relative;
 }
@@ -66,10 +70,6 @@
     color: var(--shade-of-gray);
   }
   
-  .section-less {
-    margin-top: -60px;
-  }
-
   /* Valores */
   .value-icon {
     font-size: 2.5rem;
