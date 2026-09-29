@@ -1,6 +1,6 @@
 # HLC
 
-Huerta la Curtia: Briefly describe what this project does, its purpose, and its key features.
+Huerta la Curtia
 
 ## Table of Contents
 - [Prerequisites](#prerequisites)
@@ -10,13 +10,12 @@ Huerta la Curtia: Briefly describe what this project does, its purpose, and its 
 
 ## Prerequisites
 - [Node.js](https://nodejs.org/) 
-- [Angular CLI](https://angular.io/cli) (version 21.2.12)
-- Any other dependencies or tools.
+- [Angular CLI](https://angular.io/cli) (version 22.2.0)
 
 ## Technologies Used
 - HTML
 - CSS
-- Angular 21.2.12
+- Angular 22.2.0
 - TypeScript
 
 ## License
