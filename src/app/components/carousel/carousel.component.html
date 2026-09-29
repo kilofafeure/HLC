@@ -5,7 +5,8 @@
         <img
           [src]="slide.src"
           class="slide"
-          [@slideAnimation]="animationType"
+          [animate.enter]="enterClass()"
+          [animate.leave]="leaveClass()"
         />
       }
     }
