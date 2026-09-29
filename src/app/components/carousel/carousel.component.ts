@@ -81,6 +81,7 @@ export class CarouselComponent implements OnInit, OnDestroy {
   }
 
   onNextClick() {
+     console.log('>>> onNextClick fired, currentSlide:', this.currentSlide);
     const next = this.currentSlide + 1;
     this.currentSlide = next === this.slides.length ? 0 : next;
     if (this.isSlider)
@@ -107,6 +108,7 @@ export class CarouselComponent implements OnInit, OnDestroy {
 
   ngOnDestroy() {
     if (this.isSlider)
-      clearTimeout(this.interval);
+      // clearTimeout(this.interval);
+     clearInterval(this.interval);
   }
 }
