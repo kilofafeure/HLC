@@ -95,8 +95,9 @@ a:hover {
   min-height: 300px;
 }
 
-.description-carousel {
-  flex: 1.3
+.carousel-class {
+  flex: 1.3;
+  align-self: flex-start;
 }
 
 .social-icons-inline > div {

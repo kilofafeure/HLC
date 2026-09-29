@@ -8,6 +8,7 @@
   width: 100%;
   overflow: hidden;
   border-radius: 0.5em;
+  aspect-ratio: 16 / 9;
 }
 
 .slide {

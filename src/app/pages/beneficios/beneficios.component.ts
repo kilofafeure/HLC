@@ -11,10 +11,10 @@ import { CarouselComponent } from "../../components/carousel/carousel.component"
   styleUrl: "./beneficios.component.css",
 })
 export class BeneficiosComponent {
-    slides: Slide[] = [
-      { headline: "", src: "../../../assets/carousel/sobre-nosotros/sobre-nosotros-1.jpeg" },
-      { headline: "", src: "../../../assets/carousel/sobre-nosotros/sobre-nosotros-2.jpeg" },
-      { headline: "", src: "../../../assets/carousel/sobre-nosotros/sobre-nosotros-3.jpeg" },
-      { headline: "", src: "../../../assets/carousel/sobre-nosotros/sobre-nosotros-4.jpeg" }
-    ];
+  slides: Slide[] = [
+    { headline: "", src: "../../../assets/carousel/beneficios/beneficios-1.jpeg" },
+    { headline: "", src: "../../../assets/carousel/beneficios/beneficios-2.jpeg" },
+    { headline: "", src: "../../../assets/carousel/beneficios/beneficios-3.jpeg" },
+    { headline: "", src: "../../../assets/carousel/beneficios/beneficios-4.jpeg" }
+  ];
 }
