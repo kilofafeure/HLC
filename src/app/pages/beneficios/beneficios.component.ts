@@ -15,6 +15,9 @@ export class BeneficiosComponent {
     { headline: "", src: "../../../assets/carousel/beneficios/beneficios-1.jpeg" },
     { headline: "", src: "../../../assets/carousel/beneficios/beneficios-2.jpeg" },
     { headline: "", src: "../../../assets/carousel/beneficios/beneficios-3.jpeg" },
-    { headline: "", src: "../../../assets/carousel/beneficios/beneficios-4.jpeg" }
+    { headline: "", src: "../../../assets/carousel/beneficios/beneficios-4.jpeg" },
+    { headline: "", src: "../../../assets/carousel/beneficios/beneficios-5.jpeg" },
+    { headline: "", src: "../../../assets/carousel/beneficios/beneficios-6.jpeg" },
+    { headline: "", src: "../../../assets/carousel/beneficios/beneficios-7.jpeg" }
   ];
 }

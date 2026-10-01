@@ -15,6 +15,6 @@ export class SobreNosotrosComponent {
     { headline: "", src: "../../../assets/carousel/sobre-nosotros/sobre-nosotros-1.jpeg" },
     { headline: "", src: "../../../assets/carousel/sobre-nosotros/sobre-nosotros-2.jpeg" },
     { headline: "", src: "../../../assets/carousel/sobre-nosotros/sobre-nosotros-3.jpeg" },
-    { headline: "", src: "../../../assets/carousel/sobre-nosotros/sobre-nosotros-4.jpeg" }
+    // { headline: "", src: "../../../assets/carousel/sobre-nosotros/sobre-nosotros-4.jpeg" }
   ];
 }
